@@ -12,10 +12,10 @@
     ToBuy.itemName = "";
     ToBuy.itemQuantity = "";
 
-    ToBuy.to_buy = ShoppingListService.getToBuy();
+    ToBuy.to_buy = ShoppingListCheckOffService.getToBuy();
   
     ToBuy.removeItem = function (index) {
-      ShoppingListService.removeItem(index);
+      ShoppingListCheckOffService.removeItem(index);
     }
 
   }
