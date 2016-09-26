@@ -34,7 +34,7 @@
     Bought.itemName = "";
     Bought.itemQuantity = "";
 
-    itemAdder.addItem = function () {
+    Bought.addItem = function () {
       ShoppingListCheckOffService.addItem(Bought.itemName, Bought.itemQuantity);
     }
   }
