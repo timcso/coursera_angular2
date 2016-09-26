@@ -49,10 +49,10 @@
     var bought = [];
 
     to_buy = [{name: 'chips', quantity: '3 bags'}, {name: 'chips', quantity: '3 bags'}, 
-         {name: 'chips', quantity: '3 bags'}, {name: 'chips', quantity: '3 bags'}, 
-         {name: 'chips', quantity: '3 bags'}, {name: 'chips', quantity: '3 bags'}, 
-         {name: 'chips', quantity: '3 bags'}]
-
+      {name: 'chips', quantity: '3 bags'}, {name: 'chips', quantity: '3 bags'}, 
+      {name: 'chips', quantity: '3 bags'}, {name: 'chips', quantity: '3 bags'}, 
+      {name: 'chips', quantity: '3 bags'}]
+ 
     // service.addItem = function (itemName, quantity) {
     //   var item = {
     //     name: itemName,
