@@ -33,8 +33,8 @@
     var bought = [];
 
     to_buy = [{name: 'milk', quantity: '1 bottle'}, {name: 'chips', quantity: '3 bags'}, 
-      {name: 'chocolate', quantity: '3 bar'}, {name: 'bread', quantity: '1 bags'}, 
-      {name: 'juice', quantity: '1 bottle'}, {name: 'yogurt', quantity: '3 cup'}, 
+      {name: 'chocolate', quantity: '3 bars'}, {name: 'bread', quantity: '1 bag'}, 
+      {name: 'juice', quantity: '1 bottle'}, {name: 'yogurt', quantity: '3 cups'}, 
       {name: 'eggs', quantity: '1 dozen'}];
   
     service.removeItem = function (index) {
