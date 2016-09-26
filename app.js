@@ -48,10 +48,10 @@
     // List of already bought items
     var bought = [];
 
-    to_buy = [{itemName: 'chips', itemQuantity: '3 bags'}, {itemName: 'chips', itemQuantity: '3 bags'}, 
-         {itemName: 'chips', itemQuantity: '3 bags'}, {itemName: 'chips', itemQuantity: '3 bags'}, 
-         {itemName: 'chips', itemQuantity: '3 bags'}, {itemName: 'chips', itemQuantity: '3 bags'}, 
-         {itemName: 'chips', itemQuantity: '3 bags'}]
+    to_buy = [{name: 'chips', quantity: '3 bags'}, {name: 'chips', quantity: '3 bags'}, 
+         {name: 'chips', quantity: '3 bags'}, {name: 'chips', quantity: '3 bags'}, 
+         {name: 'chips', quantity: '3 bags'}, {name: 'chips', quantity: '3 bags'}, 
+         {name: 'chips', quantity: '3 bags'}]
 
     // service.addItem = function (itemName, quantity) {
     //   var item = {
