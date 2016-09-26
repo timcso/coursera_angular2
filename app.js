@@ -48,6 +48,9 @@
     // List of already bought items
     var bought = [];
 
+    to_buy = [{itemName = 'chips', itemQuantity = '3 bags'}, {itemName = 'chips', itemQuantity = '3 bags'}, {itemName = 'chips', itemQuantity = '3 bags'}, {itemName = 'chips', itemQuantity = '3 bags'}, 
+         {itemName = 'chips', itemQuantity = '3 bags'}, {itemName = 'chips', itemQuantity = '3 bags'}, {itemName = 'chips', itemQuantity = '3 bags'}]
+
     // service.addItem = function (itemName, quantity) {
     //   var item = {
     //     name: itemName,
