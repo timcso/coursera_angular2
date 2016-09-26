@@ -48,8 +48,10 @@
     // List of already bought items
     var bought = [];
 
-    to_buy = [{itemName = 'chips', itemQuantity = '3 bags'}, {itemName = 'chips', itemQuantity = '3 bags'}, {itemName = 'chips', itemQuantity = '3 bags'}, {itemName = 'chips', itemQuantity = '3 bags'}, 
-         {itemName = 'chips', itemQuantity = '3 bags'}, {itemName = 'chips', itemQuantity = '3 bags'}, {itemName = 'chips', itemQuantity = '3 bags'}]
+    to_buy = [{itemName: 'chips', itemQuantity: '3 bags'}, {itemName: 'chips', itemQuantity: '3 bags'}, 
+         {itemName: 'chips', itemQuantity: '3 bags'}, {itemName: 'chips', itemQuantity: '3 bags'}, 
+         {itemName: 'chips', itemQuantity: '3 bags'}, {itemName: 'chips', itemQuantity: '3 bags'}, 
+         {itemName: 'chips', itemQuantity: '3 bags'}]
 
     // service.addItem = function (itemName, quantity) {
     //   var item = {
@@ -62,8 +64,8 @@
   
     service.removeItem = function (index) {
       var item = {
-        name = to_buy[index].itemName,
-        quantity = to_buy[index].itemQuantity
+        name: to_buy[index].itemName,
+        quantity: to_buy[index].itemQuantity
       };
       bought.push(item);
       to_buy.splice(index, 1);
